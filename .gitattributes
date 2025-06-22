@@ -1,0 +1,21 @@
+# Terapkan konversi LF secara otomatis untuk semua file teks
+* text=auto eol=lf
+
+# File konfigurasi dan dokumentasi
+.gitignore text eol=lf
+README.md text eol=lf
+package.json text eol=lf
+package-lock.json text eol=lf
+vite.config.js text eol=lf
+eslint.config.js text eol=lf
+
+# File HTML dan CSS
+index.html text eol=lf
+*.css text eol=lf
+
+# File JavaScript dan JSX
+*.js text eol=lf
+*.jsx text eol=lf
+
+# Folder src (umum untuk proyek React/Vite)
+src/* text eol=lf
